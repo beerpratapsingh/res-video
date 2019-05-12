@@ -1,0 +1,25 @@
+{
+  "name": "video-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beerpratapsingh/res-video.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beerpratapsingh/res-video/issues"
+  },
+  "homepage": "https://github.com/beerpratapsingh/res-video#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0"
+  }
+}

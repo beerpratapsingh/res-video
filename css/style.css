@@ -1,3 +1,7 @@
+.fullscreen a{
+  display: flex;
+}
+
 .container {
   display: flex;
   flex-direction: column;
