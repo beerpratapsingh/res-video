@@ -1,16 +1,11 @@
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.fullscreen a{
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+}
+
+.container {
+  display: flex;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -40,8 +35,7 @@
   width: 25vh;
   background: orange;
   -webkit-transform: skew(0deg, 45deg);
-  -ms-transform: skew(0deg, 45deg);
-  transform: skew(0deg, 45deg);
+          transform: skew(0deg, 45deg);
   position: absolute;
   left: 75vw;
   top: 12.5vh;
@@ -51,8 +45,7 @@
   height: 25vh;
   background: red;
   -webkit-transform: skew(45deg, 0deg);
-  -ms-transform: skew(45deg, 0deg);
-  transform: skew(45deg, 0deg);
+          transform: skew(45deg, 0deg);
   position: relative;
   left: 12.5vh;
   top: -4px;
@@ -86,7 +79,7 @@ iframe {
   }
 
   .cube2 {
-    height: 62.5vh;
+    height: 64.5vh;
   }
 }
 
