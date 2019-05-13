@@ -86,7 +86,7 @@ iframe {
 /*Small devices (mobile, 576px and up)*/
 @media (max-width: 576px) {
   .cube1 {
-    padding-bottom: 40vh;
+    padding-bottom: 39.6vh;
   }
 
   .cube2 {
